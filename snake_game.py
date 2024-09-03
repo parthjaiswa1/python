@@ -20,7 +20,7 @@ if os.path.exists("high_score.txt"):
    file_content = file_object.read()
    file_object.close()
 else:
-   file_object_write = open("high_score.txt" , "w")
+   file_object_write = open("high_score.txt" , "w")    
    file_object_write.write("0")
    file_content = 0
    file_object_write.close()
