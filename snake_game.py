@@ -9,7 +9,7 @@ import os
 snake = turtle.Turtle()
 snake.screen.bgcolor("lime")
 snake.shape("square")
-snake.color("green")
+snake.color("green") 
 snake.screen.listen()
 snake.penup()
 tycord=0
